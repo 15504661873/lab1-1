@@ -8,9 +8,11 @@ import java.util.Scanner;
 
 public class TestGraph {
     public static void main(String[] args) throws IOException {
-        String filePath = "C:\\Users\\lty96117\\code\\HIT\\HIT-2017SE\\data\\Data.txt";
 
-        String filePathTo = "C:\\Users\\lty96117\\code\\HIT\\HIT-2017SE\\data\\To.txt";
+        String filePath = "C:\\Users\\mo chen\\workspace\\Data.txt";
+        String filePathTo = "C:\\Users\\mo chen\\workspace\\To.txt";
+        //String filePathTo = "C:\\Users\\lty96117\\code\\HIT\\HIT-2017SE\\data\\To.txt";
+
 
         EdgeWeightedDigraph.init(filePath, filePathTo);
         System.out.println("==================init accomplished=====");
