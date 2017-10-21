@@ -1,5 +1,5 @@
 package lab1;
-
+//
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
